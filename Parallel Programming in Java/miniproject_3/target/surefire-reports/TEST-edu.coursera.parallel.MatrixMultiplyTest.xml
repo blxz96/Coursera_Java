@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.coursera.parallel.MatrixMultiplyTest" time="67.872" tests="2" errors="0" skipped="0" failures="2">
+<testsuite name="edu.coursera.parallel.MatrixMultiplyTest" time="73.332" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2021.2.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,15 +63,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testPar512_x_512" classname="edu.coursera.parallel.MatrixMultiplyTest" time="12.666">
-    <failure message="It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.990066x speedup" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.990066x speedup
+  <testcase name="testPar512_x_512" classname="edu.coursera.parallel.MatrixMultiplyTest" time="12.344">
+    <failure message="It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.993197x speedup" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.993197x speedup
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at edu.coursera.parallel.MatrixMultiplyTest.testPar512_x_512(MatrixMultiplyTest.java:118)
 </failure>
   </testcase>
-  <testcase name="testPar768_x_768" classname="edu.coursera.parallel.MatrixMultiplyTest" time="55.206">
-    <failure message="It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 1.000000x speedup" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 1.000000x speedup
+  <testcase name="testPar768_x_768" classname="edu.coursera.parallel.MatrixMultiplyTest" time="60.988">
+    <failure message="It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.994532x speedup" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: It was expected that the parallel implementation would run at least 7.200000x faster, but it only achieved 0.994532x speedup
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
 	at edu.coursera.parallel.MatrixMultiplyTest.testPar768_x_768(MatrixMultiplyTest.java:130)
